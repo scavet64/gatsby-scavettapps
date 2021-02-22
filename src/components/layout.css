@@ -5,7 +5,7 @@ html {
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 body {
   margin: 0;
@@ -625,4 +625,12 @@ footer {
 .center {
   display: flex;
   justify-content: center;
+}
+
+.not-found {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  height: 75vh;
+  color: white;
 }
