@@ -1,0 +1,37 @@
+.education-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-description {
+    display: flex;
+    text-align: center;
+}
+
+.education-description > img {
+    margin-left: 1rem;
+}
+
+.degree-list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.degree-list-item {
+    flex:1;
+    background-color: #f0f0f0;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.degree-list-item:last-child {
+    margin-right: 0;
+}

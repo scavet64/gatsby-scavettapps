@@ -1,0 +1,66 @@
+$primary-color2: #16b7d0;
+$accent-color2: #22182f;
+$og-color: #16b7d0;
+
+$primary-color: #1d69b5;
+//$primary-color: #0057ade0;
+//$primary-color: #0057AD;
+$accent-color: #59b800;
+
+// .buttonStyle {
+//     width: 165px;
+//     height: 55px;
+//     background-color: $accent-color;
+//     border-radius: 10px;
+//     color: white;
+//     font-weight: bold;
+//     font-size: 20px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     margin-top: 25px;
+// }
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.section-title {
+  font-size: 62px;
+}
+
+.subtext {
+  font-size: 24px;
+  margin-top: 40px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.emphasis-word {
+  color: $primary-color;
+  font-weight: bold;
+}
+
+html {
+  background-color: #efefef;
+  font-family: Montserrat;
+}
+
+.content-container {
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 1300px;
+  margin:auto;
+}
+
+.margin-centered {
+  margin: auto;
+}
+
+.content-bounds {
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 1300px;
+}

@@ -9,6 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import NavigationBar from "../components/navigation/navigation-bar"
+
 import Header from "./header"
 import "./layout.css"
 
@@ -25,23 +27,32 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer
+      <div>
+        <main
           style={{
-            marginTop: `2rem`,
+            width: `75em`,
+            maxWidth: `calc(100% - 4em)`,
+            margin: `0 auto`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          {children}
+        </main>
+        <footer>
+          <div className="footer-note">
+            Copyright © {new Date().getFullYear()} | Scavettapps | All Rights
+            Reserved |
+          </div>
+          <div className="footer-note">
+            Icons made by{" "}
+            <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
+              Freepik
+            </a>{" "}
+            from{" "}
+            <a href="https://www.flaticon.com/" title="Flaticon">
+              {" "}
+              www.flaticon.com
+            </a>
+          </div>
         </footer>
       </div>
     </>
