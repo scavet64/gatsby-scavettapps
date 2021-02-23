@@ -53,6 +53,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
+}
+
+.button-anchor:hover {
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
 }
 
 .button-anchor:last-child {

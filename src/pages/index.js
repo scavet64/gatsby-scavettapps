@@ -1,22 +1,48 @@
-import React from "react"
-import { Link } from "gatsby"
+
 import HeroComponent from "../components/hero/hero"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import MainContentComponent from "../components/main/main"
+import { Waypoint } from 'react-waypoint'
 
-const IndexPage = () => {
-  return (
-    <Layout>
-      <SEO title="Home" />
-      <HeroComponent />
+import React, { Component } from 'react'
 
-      <MainContentComponent/>
+import "./../components/styles.scss"
+import Nav from "../components/main/nav/nav"
 
-    </Layout>
-  )
+export default class index extends Component {
+
+  constructor(props) {
+    super(props)
+    this.state = {
+      stickyNav: false,
+    }
+  }
+
+  handleWaypointEnter = () => {
+    this.setState(() => ({ stickyNav: false }));
+  };
+
+  handleWaypointLeave = () => {
+    this.setState(() => ({ stickyNav: true }));
+  };  
+
+  render() {
+    return (
+      <Layout>
+        <SEO title="Home" />
+        <HeroComponent />
+  
+        <Waypoint
+          onEnter={this.handleWaypointEnter}
+          onLeave={this.handleWaypointLeave}
+        ></Waypoint>
+        <Nav sticky={this.state.stickyNav}/>
+
+        <MainContentComponent/>
+  
+      </Layout>
+    )
+  }
 }
-
-export default IndexPage

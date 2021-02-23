@@ -21,7 +21,10 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.2.0",
-    "sass": "^1.32.7"
+    "react-scrollspy": "^3.4.3",
+    "react-waypoint": "^9.0.3",
+    "sass": "^1.32.7",
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
     "prettier": "2.2.1"
@@ -33,6 +36,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "dev-host": "gatsby develop --host 0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
