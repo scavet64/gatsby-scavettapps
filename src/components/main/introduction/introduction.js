@@ -3,11 +3,10 @@ import React from "react"
 import s from "./introduction.module.scss"
 
 const IntroductionComponent = () => {
-  console.log(s)
   return (
     <section id="about">
       <h2>Who I am</h2>
-      <p id="Main">
+      <p>
         My name is Vincent Scavetta and I am a professional Full Stack Software
         Engineer specializing in developing secure software for the Department
         of Defense. On any given day you can usually find me programming away on

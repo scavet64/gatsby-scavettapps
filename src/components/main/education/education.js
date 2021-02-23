@@ -2,8 +2,6 @@ import React from "react"
 
 import s from "./education.module.scss"
 
-import graduation from "../../../images/icons/graduateFull.svg"
-
 const EducationSection = () => {
   return (
     <section id="education">
@@ -17,7 +15,6 @@ const EducationSection = () => {
             falling in love with computer science, I continued my education in
             computer science by also completing my graduate degree at Rowan
           </p>
-          <img src={graduation} height="100px" width="100px"></img>
         </div>
 
         <div className={s.degreeList}>

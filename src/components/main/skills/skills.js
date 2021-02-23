@@ -15,7 +15,7 @@ const SkillsSection = () => {
         <div className={s.skillsListItem}>
           <div className={s.skillsListItemTitle}>
             <img src={svc1} height="125px" width="125px"></img>
-            <p>Frontend Development</p>
+            <h4>Frontend Development</h4>
           </div>
           <div className={s.skillsListItemBody}>
             <p>
@@ -41,7 +41,7 @@ const SkillsSection = () => {
         <div className={s.skillsListItem}>
           <div className={s.skillsListItemTitle}>
             <img src={svc2} height="125px" width="125px"></img>
-            <p>Backend Development</p>
+            <h4>Backend Development</h4>
           </div>
           <div className={s.skillsListItemBody}>
             <p>
@@ -67,7 +67,7 @@ const SkillsSection = () => {
         <div className={s.skillsListItem}>
           <div className={s.skillsListItemTitle}>
             <img src={svc3} height="125px" width="125px"></img>
-            <p>Dev-ops Experience</p>
+            <h4>DevOps Experience</h4>
           </div>
           <div className={s.skillsListItemBody}>
             <p>
