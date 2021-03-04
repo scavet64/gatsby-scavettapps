@@ -5,7 +5,6 @@ import s from "./skills.module.scss"
 import svc1 from "../../../images/icons/webdesign.svg"
 import svc2 from "../../../images/icons/server.svg"
 import svc3 from "../../../images/icons/devops.svg"
-import svc4 from "../../../images/icons/graduate.svg"
 
 const SkillsSection = () => {
   return (
@@ -14,7 +13,7 @@ const SkillsSection = () => {
       <div className={s.skillsList}>
         <div className={s.skillsListItem}>
           <div className={s.skillsListItemTitle}>
-            <img src={svc1} height="125px" width="125px"></img>
+            <img src={svc1} height="125px" width="125px" alt="Frontend Development"/>
             <h4>Frontend Development</h4>
           </div>
           <div className={s.skillsListItemBody}>
@@ -40,7 +39,7 @@ const SkillsSection = () => {
 
         <div className={s.skillsListItem}>
           <div className={s.skillsListItemTitle}>
-            <img src={svc2} height="125px" width="125px"></img>
+            <img src={svc2} height="125px" width="125px" alt="Backend Development"/>
             <h4>Backend Development</h4>
           </div>
           <div className={s.skillsListItemBody}>
@@ -66,7 +65,7 @@ const SkillsSection = () => {
 
         <div className={s.skillsListItem}>
           <div className={s.skillsListItemTitle}>
-            <img src={svc3} height="125px" width="125px"></img>
+            <img src={svc3} height="125px" width="125px" alt="DevOps Experience"/>
             <h4>DevOps Experience</h4>
           </div>
           <div className={s.skillsListItemBody}>

@@ -1,7 +1,5 @@
 import React from "react"
 
-import s from "./introduction.module.scss"
-
 const IntroductionComponent = () => {
   return (
     <section id="about">

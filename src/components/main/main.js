@@ -5,7 +5,6 @@ import SkillsSection from "./skills/skills"
 import s from "./main.module.scss"
 import EducationSection from "./education/education"
 import ProjectsSection from "./projects/projects"
-import Nav from "./nav/nav"
 
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
 import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn"
