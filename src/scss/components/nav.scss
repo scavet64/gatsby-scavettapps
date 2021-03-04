@@ -40,7 +40,7 @@
             padding: 0;
             vertical-align: middle;
 
-            a {
+            button {
                 @include vendor('transition', (
                     'font-size #{_duration(transition)} ease'
                 ));
@@ -54,6 +54,10 @@
                 text-decoration: none;
                 color: black;
                 font-weight: 300;
+                background-color: transparent;
+                -webkit-user-select: none; /* Safari */
+                -ms-user-select: none; /* IE 10 and IE 11 */
+                user-select: none; /* Standard syntax */
 
                 &:hover {
                     background-color: _palette(invert, border-bg);
@@ -65,13 +69,15 @@
                 }
             }
             &.is-active {
-                a {
+                button {
                     background-color: _palette(invert, bg);
                     box-shadow: none;
                 }
             }
         }
     }
+
+    button:focus {outline:0;}
 
     &.alt {
         position: fixed;
