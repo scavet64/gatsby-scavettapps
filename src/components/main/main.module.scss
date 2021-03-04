@@ -1,3 +1,5 @@
+@import "../styles.scss";
+
 .main-container {
   background-color: #fff;
   border-radius: 1rem;
@@ -6,6 +8,9 @@
 h2 {
   font-size: 2rem;
   font-weight: 400;
+  @include breakpoint(small) {
+    margin-bottom: 0px;
+  }
 }
 
 h3 {
@@ -30,11 +35,20 @@ h2::after {
 
 .main-container > section:first-child {
   padding: 5em 3em 3em 3em;
+
+  @include breakpoint(small) {
+    padding: 1em;
+  }
 }
 
 .main-container > section {
   border-bottom: solid 1px #dddddd;
   padding: 3em 3em 3em 3em;
+
+  @include breakpoint(small) {
+    padding: 1em;
+    text-align: center;
+  }
 }
 
 .main-container > section:last-child {

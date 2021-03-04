@@ -8,7 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import "./layout.css"
+import "./layout.scss"
+import "./styles.scss"
 
 const Layout = ({ children }) => {
 
@@ -18,18 +19,14 @@ const Layout = ({ children }) => {
         minHeight: `100vh`
       }}>
         <main
-          style={{
-            width: `75em`,
-            maxWidth: `calc(100% - 4em)`,
-            margin: `0 auto`,
-          }}
+          id="mainpage"
         >
           {children}
         </main>
         <footer>
           <div className="footer-note">
             Copyright © {new Date().getFullYear()} | Scavettapps | All Rights
-            Reserved |
+            Reserved
           </div>
           <div className="footer-note">
             Icons made by{" "}

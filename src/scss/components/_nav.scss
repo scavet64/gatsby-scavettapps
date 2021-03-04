@@ -99,11 +99,11 @@
         }
     }
 
-    // @include breakpoint(small) {
-    //     display: none;
+    @include breakpoint(small) {
+        display: none;
 
-    //     & + #main {
-    //         padding-top: 0;
-    //     }
-    // }
+        & + #main {
+            padding-top: 0;
+        }
+    }
 }

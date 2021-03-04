@@ -601,25 +601,23 @@ pre tt:after {
   content: "";
 }
 @media only screen and (max-width: 480px) {
-  html {
+  /* html {
     font-size: 100%;
-  }
+  } */
 }
 
 footer {
   padding: 2rem;
   display: flex;
+  flex-flow: column;
   align-items: center;
   justify-content: center;
   color: white;
+  text-align: center;
 }
 
 .footer-note{
   margin: 5px;
-}
-
-.testing-name {
-  color: green;
 }
 
 .center {

@@ -1,3 +1,5 @@
+@import "../../styles.scss";
+
 .skills-list {
     display: grid;
     place-items: center;
@@ -11,6 +13,10 @@
     border-radius: 1rem;
     background-color: #f0f0f0;
     margin: 0.25rem 0;
+
+    @include breakpoint(small) {
+        flex-wrap: wrap
+    }
 }
 
 .skills-list-item:nth-child(even) {
@@ -18,33 +24,38 @@
     background-color: #dfdfdf;
 }
 
-.skills-list-item:nth-child(even) > .skills-list-item-title {
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-.skills-list-item:nth-child(odd) > .skills-list-item-title {
+.skills-list-item-title {
+    width: 300px;
+    text-align: center;
     margin-right: 2rem;
     margin-left: 2rem;
-}
 
-// .skills-list-item:last-child {
-//     padding: 0rem 1rem 0rem;
-// }
+    @include breakpoint(small) {
+        width: auto
+    }
+}
 
 .skills-list-item-title {
-    width: 30rem;
-    text-align: center;
-}
 
-.skills-list-item-title > img {
-    border-radius: 100%;
-    background-color: white;
+    img {
+        border-radius: 100%;
+        background-color: white;
+    }
+
+    h4 {
+        width: 125px;
+        @include breakpoint(small) {
+            width: 200px;
+        }
+    }
 }
 
 .skills-list-item-body {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
+
+    @include breakpoint(small) {
+        padding-left: 0;
+    }
 }
 
 .skills {
@@ -55,6 +66,9 @@
     display: flex;
     justify-content: left;
     flex-flow: wrap;
+    @include breakpoint(small) {
+        justify-content: center;
+    }
 }
 
 .tag {
@@ -65,6 +79,11 @@
     transition: 0.25s;
     margin-right: 0.75rem;
     margin-bottom: 0.5rem;
+
+    @include breakpoint(small) {
+        justify-content: center;
+        margin-right: 0.3rem;
+    }
 }
 
 .tag:last-child {
