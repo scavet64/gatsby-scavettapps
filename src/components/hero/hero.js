@@ -7,7 +7,7 @@ const HeroComponent = () => {
     <section id="landing" className={s.background}>
       <div className={s.heroHolder}>
         <h1 className={s.heroTitle}>Hello, I'm Vincent Scavetta</h1>
-        <p className={s.subtitleStyle}>creator of Scavettapps</p>
+        <p className={s.subtitleStyle}>Creator of Scavettapps</p>
       </div>
     </section>
   )

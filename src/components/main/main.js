@@ -27,10 +27,9 @@ const MainContentComponent = () => {
               <li>Have something that you need designed or developed?</li>
               <li>Want a personalized website to showcase who you are?</li>
               <li>
-                Need a clean, fast, modern website to convert more vistors into
+                Need a clean, fast, modern website to convert more visitors into
                 customers?
               </li>
-              <li>Want to give me a job?</li>
             </ul>
             <p className={s.contactMe}>
               Contact me today and see what I can do!
@@ -52,7 +51,7 @@ const MainContentComponent = () => {
               <FaLinkedinIn size="1.5em" />
             </a>
 
-            <a href="twitter.com/scavettapps" className={s.socialLink}>
+            <a href="https://twitter.com/scavettapps" className={s.socialLink}>
               <FaTwitter size="1.5em" />
             </a>
           </div>
