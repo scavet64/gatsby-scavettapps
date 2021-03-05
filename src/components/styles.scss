@@ -83,3 +83,15 @@
     max-width: 95%;
   }
 }
+
+html {
+  font: 112.5%/1.45em georgia, serif, sans-serif;
+
+  @include breakpoint('xlarge') {
+    font: 107%/1.25em georgia, serif, sans-serif;
+  }
+
+  @include breakpoint('large') {
+    font: 100%/1.45em georgia, serif, sans-serif;
+  }
+}

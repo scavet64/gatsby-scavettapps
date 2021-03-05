@@ -22,6 +22,10 @@
 .skills-list-item:nth-child(even) {
     flex-direction: row-reverse;
     background-color: #dfdfdf;
+
+    @include breakpoint(small) {
+        background-color: #f0f0f0;
+    }
 }
 
 .skills-list-item-title {

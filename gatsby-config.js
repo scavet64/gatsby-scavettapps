@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Scavettapps Homepage`,
-    description: `The official homepage of Scavettapps. Owned and created by Vincent Scavetta.`,
+    title: `Scavettapps`,
+    description: `The official website of Scavettapps. Owned and created by Vincent Scavetta.`,
     author: `Vincent Scavetta`,
   },
   plugins: [
