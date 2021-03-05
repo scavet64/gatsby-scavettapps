@@ -1,5 +1,4 @@
 import React from "react"
-import IntroductionComponent from "./introduction/introduction"
 import SkillsSection from "./skills/skills"
 
 import s from "./main.module.scss"
@@ -12,13 +11,26 @@ import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter"
 import { FiMail } from "@react-icons/all-files/fi/FiMail"
 
 const MainContentComponent = () => {
-  console.log(s)
   return (
     <div id="main" className={s.mainContainer}>
-      <IntroductionComponent />
+
+      <section id="about">
+        <h2>Who I am</h2>
+        <p>
+          My name is Vincent Scavetta and I am a professional Full Stack
+          Software Engineer specializing in developing secure software for the
+          Department of Defense. On any given day you can usually find me
+          programming away on all sorts of different projects, some small and
+          some complex, whatever fits the mood. When im not programming, I like
+          to spend time learning new topics and enhancing my current skill so I
+          can take my projects to the next level.
+        </p>
+      </section>
+
       <SkillsSection />
       <EducationSection />
       <ProjectsSection />
+
       <section id="contact">
         <h2>Get in Touch</h2>
         <div>
@@ -50,6 +62,7 @@ const MainContentComponent = () => {
           </div>
         </div>
       </section>
+      
     </div>
   )
 }
