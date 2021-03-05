@@ -13,7 +13,6 @@ import { FiMail } from "@react-icons/all-files/fi/FiMail"
 const MainContentComponent = () => {
   return (
     <div id="main" className={s.mainContainer}>
-
       <section id="about">
         <h2>Who I am</h2>
         <p>
@@ -21,9 +20,11 @@ const MainContentComponent = () => {
           Software Engineer specializing in developing secure software for the
           Department of Defense. On any given day you can usually find me
           programming away on all sorts of different projects, some small and
-          some complex, whatever fits the mood. When im not programming, I like
-          to spend time learning new topics and enhancing my current skill so I
-          can take my projects to the next level.
+          some complex, whatever fits the mood. I love to spend time learning
+          about new programming languages and technologies so I can take my
+          projects and dream ideas to the next level. While im not programming,
+          I like to spend time playing new and old video games or watching my
+          favorite content creators on twitch and YouTube.
         </p>
       </section>
 

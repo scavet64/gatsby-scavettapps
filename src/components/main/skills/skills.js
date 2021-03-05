@@ -23,14 +23,12 @@ const SkillsSection = () => {
           </div>
           <div className={s.skillsListItemBody}>
             <p>
-              The user interface is arguably one of the most important aspects
-              of how successful an application or website can be. Many users
-              make their decision if they will continue using a website or
-              application in the first few seconds of their visit. Having a
-              clean, easy to understand and navigate website is critical to
-              ensure new users are welcomed and not totally overwhelmed or
-              confused. Taking the time to create a great user interface is
-              something that I always like to spend time doing.
+              Many users make their decision if they will continue using a
+              website or application in the first few seconds of their visit.
+              Having a fast, clean, easy to navigate website is critical to
+              ensure new users are welcomed and not overwhelmed or confused.
+              Taking the time to create a great user interface is something that
+              I always like to spend time doing.
             </p>
             <div className={s.tagContainer}>
               <div className={s.tag}>Angular</div>
