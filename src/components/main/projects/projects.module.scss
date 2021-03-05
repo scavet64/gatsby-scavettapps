@@ -31,6 +31,9 @@
     text-align: center;
     margin-right: 2rem;
 
+    max-width: 500px;
+    min-width: 375px;
+
     @include breakpoint(small) {
         margin-right: 0;
         margin-bottom: 2rem;

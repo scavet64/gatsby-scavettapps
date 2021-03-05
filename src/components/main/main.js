@@ -33,36 +33,50 @@ const MainContentComponent = () => {
 
       <section id="contact">
         <h2>Get in Touch</h2>
-        <div>
-          <div>
+        <div className={s.contactMeContainer}>
+          <div className={s.contactMeText}>
             <p className={s.contactMe}>
               Need a clean, fast, modern website to convert more visitors into
               customers? Contact me today and see what I can do!
             </p>
           </div>
           <div className={s.socialLinkList}>
-            <a href="mailto:scavettapps@gmail.com" className={s.socialLink}>
-              <FiMail size="1.5em" />
-            </a>
+            <div className={s.socialContainer}>
+              <a href="mailto:scavettapps@gmail.com" className={s.socialLink}>
+                <FiMail size="1.5em" />
+              </a>
+              contact@scavettapps.com
+            </div>
 
-            <a href="https://github.com/scavet64/" className={s.socialLink}>
-              <FaGithub size="1.5em" />
-            </a>
+            <div className={s.socialContainer}>
+              <a href="https://github.com/scavet64/" className={s.socialLink}>
+                <FaGithub size="1.5em" />
+              </a>
+              github.com/scavet64
+            </div>
 
-            <a
-              href="https://www.linkedin.com/in/vscavetta/"
-              className={s.socialLink}
-            >
-              <FaLinkedinIn size="1.5em" />
-            </a>
+            <div className={s.socialContainer}>
+              <a
+                href="https://www.linkedin.com/in/vscavetta/"
+                className={s.socialLink}
+              >
+                <FaLinkedinIn size="1.5em" />
+              </a>
+              linkedin.com/in/vscavetta
+            </div>
 
-            <a href="https://twitter.com/scavettapps" className={s.socialLink}>
-              <FaTwitter size="1.5em" />
-            </a>
+            <div className={s.socialContainer}>
+              <a
+                href="https://twitter.com/scavettapps"
+                className={s.socialLink}
+              >
+                <FaTwitter size="1.5em" />
+              </a>
+              twitter.com/scavettapps
+            </div>
           </div>
         </div>
       </section>
-      
     </div>
   )
 }
