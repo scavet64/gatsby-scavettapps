@@ -15,18 +15,16 @@
     margin-left: 1rem;
 }
 
-.degree-list {
+.project-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.degree-list-item {
+.project-list-item {
     flex:1;
-    // background-color: #f0f0f0;;
     border-radius: 1rem;
     padding: 1rem;
-    // display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -39,15 +37,14 @@
     }
 }
 
-.degree-list-item > img {
-    //border-width: 0.25rem;
+.project-list-item > img {
     border-color: #f0f0f0;
     border-style: solid;
     border-radius: 50%;
     padding: 1rem;
 }
 
-.degree-list-item:last-child {
+.project-list-item:last-child {
     margin-right: 0;
 }
 

@@ -23,16 +23,9 @@ const MainContentComponent = () => {
         <h2>Get in Touch</h2>
         <div>
           <div>
-            <ul className={s.contactMeList}>
-              <li>Have something that you need designed or developed?</li>
-              <li>Want a personalized website to showcase who you are?</li>
-              <li>
-                Need a clean, fast, modern website to convert more visitors into
-                customers?
-              </li>
-            </ul>
             <p className={s.contactMe}>
-              Contact me today and see what I can do!
+              Need a clean, fast, modern website to convert more visitors into
+              customers? Contact me today and see what I can do!
             </p>
           </div>
           <div className={s.socialLinkList}>

@@ -1,8 +1,8 @@
 {
   "name": "scavettapps",
   "private": true,
-  "description": "The official homepage of scavettapps by Vincent Scavetta",
-  "version": "0.1.0",
+  "description": "The official homepage of Scavettapps by Vincent Scavetta",
+  "version": "1.0.0",
   "author": "Vincent Scavetta <contact@scavettapps.com>",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",

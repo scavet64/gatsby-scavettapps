@@ -24,8 +24,8 @@ const ProjectsSection = () => {
           </p>
         </div>
 
-        <div className={s.degreeList}>
-          <div className={s.degreeListItem}>
+        <div className={s.projectList}>
+          <div className={s.projectListItem}>
             <img src={animalCrossing} height="150px" width="150px" alt="Animal Crossing Critters Logo"/>
             <h4>Animal Crossing Critters</h4>
             <p>
@@ -50,7 +50,7 @@ const ProjectsSection = () => {
               </a>
             </div>
           </div>
-          <div className={s.degreeListItem}>
+          <div className={s.projectListItem}>
             <img src={supernova} height="150px" width="150px" alt="Super Nova Escape Logo"/>
             <h4>SuperNova: Escape!</h4>
             <p>
@@ -77,7 +77,7 @@ const ProjectsSection = () => {
               </a>
             </div>
           </div>
-          <div className={s.degreeListItem}>
+          <div className={s.projectListItem}>
             <img src={incrediball} height="150px" width="150px" alt="Incrediball Logo"/>
             <h4>Incrediball</h4>
             <p>

@@ -1,15 +1,7 @@
 @import '../styles.scss';
 
-:export { primaryColor: $primary-color; }
-
-.background {
-    //background-color: $primary-color;
-    //background: linear-gradient(135deg, #2B7594 0%, #7a007e 100%);
-}
-
 .content-container {
     padding-top: 35px;
-    //margin-bottom: -120px;
     z-index: 2;
     position: relative;
     flex: 0 1 auto;
@@ -19,15 +11,10 @@
     display: flex;
     color: white;
     background-color: var(--primary-color);
-    /* //backgroundColor: DodgerBlue; */
     justify-content: space-between;
 }
 
 .hero-title {
-    //font-size: 3rem;
-    //font-family: Montserrat;
-    //font-weight: 300;
-    //line-height: 36px;
     color: white;
 }
 
