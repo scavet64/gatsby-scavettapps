@@ -25,10 +25,16 @@
 
     p {
         text-align: right;
+        @include breakpoint(small) {
+            text-align: center;
+        }
     }
 
     .tag-container {
         justify-content: flex-end;
+        @include breakpoint(small) {
+            justify-content: center;
+        }
     }
 
     @include breakpoint(small) {
