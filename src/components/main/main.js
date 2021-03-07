@@ -24,7 +24,7 @@ const MainContentComponent = () => {
           about new programming languages and technologies so I can take my
           projects and dream ideas to the next level. While im not programming,
           I like to spend time playing new and old video games or watching my
-          favorite content creators on twitch and YouTube.
+          favorite content creators on Twitch and YouTube.
         </p>
       </section>
 

@@ -51,5 +51,6 @@ module.exports = {
         defer: false,
       },
     },
+    `gatsby-plugin-client-side-redirect` // keep it in last in list
   ],
 }
