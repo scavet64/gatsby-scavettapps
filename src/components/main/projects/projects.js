@@ -3,7 +3,7 @@ import React from "react"
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
 import { FaExternalLinkAlt } from "@react-icons/all-files/fa/FaExternalLinkAlt"
 
-import s from "./projects.module.scss"
+import { projectContainer, projectDescription, projectList, projectListItem, buttonContainer, buttonAnchor } from "./projects.module.scss"
 
 import supernova from "../../../images/icons/supernovaMaybe.svg"
 import animalCrossing from "../../../images/icons/animal-crossing.svg"
@@ -14,8 +14,8 @@ const ProjectsSection = () => {
     <section id="projects">
       <h2>What I've Made</h2>
 
-      <div className={s.projectContainer}>
-        <div className={s.projectDescription}>
+      <div className={projectContainer}>
+        <div className={projectDescription}>
           <p>
             These are just a few of the projects that I have worked on that have
             been published around on the internet. The source code for these
@@ -24,8 +24,8 @@ const ProjectsSection = () => {
           </p>
         </div>
 
-        <div className={s.projectList}>
-          <div className={s.projectListItem}>
+        <div className={projectList}>
+          <div className={projectListItem}>
             <img src={animalCrossing} height="150px" width="150px" alt="Animal Crossing Critters Logo"/>
             <h4>Animal Crossing Critters</h4>
             <p>
@@ -33,16 +33,16 @@ const ProjectsSection = () => {
               Critterpedia by using this tracker to see which critters you have
               captured and see when each critter is available.
             </p>
-            <div className={s.buttonContainer}>
+            <div className={buttonContainer}>
               <a
-                className={s.buttonAnchor}
+                className={buttonAnchor}
                 href="https://animalcrossing.scavettapps.com"
               >
                 <FaExternalLinkAlt />
                 &nbsp;Visit
               </a>
               <a
-                className={s.buttonAnchor}
+                className={buttonAnchor}
                 href="https://github.com/scavet64/AnimalCrossingCritters"
               >
                 <FaGithub />
@@ -50,7 +50,7 @@ const ProjectsSection = () => {
               </a>
             </div>
           </div>
-          <div className={s.projectListItem}>
+          <div className={projectListItem}>
             <img src={supernova} height="150px" width="150px" alt="Super Nova Escape Logo"/>
             <h4>SuperNova: Escape!</h4>
             <p>
@@ -59,9 +59,9 @@ const ProjectsSection = () => {
               slowing down... Tap too slowly and the super nova will surly catch
               up!
             </p>
-            <div className={s.buttonContainer}>
+            <div className={buttonContainer}>
               <a
-                className={s.buttonAnchor}
+                className={buttonAnchor}
                 href="https://apps.apple.com/us/app/supernova-escape/id1212043972"
               >
                 <FaExternalLinkAlt />
@@ -69,7 +69,7 @@ const ProjectsSection = () => {
               </a>
 
               <a
-                className={s.buttonAnchor}
+                className={buttonAnchor}
                 href="https://github.com/scavet64/SuperNova-Escape"
               >
                 <FaGithub />
@@ -77,7 +77,7 @@ const ProjectsSection = () => {
               </a>
             </div>
           </div>
-          <div className={s.projectListItem}>
+          <div className={projectListItem}>
             <img src={incrediball} height="150px" width="150px" alt="Incrediball Logo"/>
             <h4>Incrediball</h4>
             <p>
@@ -85,16 +85,16 @@ const ProjectsSection = () => {
               experience. Steer the ball left and right on randomly generated
               paths to show your friends that you are truly incrediball.
             </p>
-            <div className={s.buttonContainer}>
+            <div className={buttonContainer}>
               <a
-                className={s.buttonAnchor}
+                className={buttonAnchor}
                 href="https://apps.apple.com/us/app/incrediball-the-endlessly-rolling-ball/id1119680630"
               >
                 <FaExternalLinkAlt />
                 &nbsp;Download
               </a>
               <a
-                className={s.buttonAnchor}
+                className={buttonAnchor}
                 href="https://github.com/scavet64/Incrediball"
               >
                 <FaGithub />
