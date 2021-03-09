@@ -26,7 +26,7 @@ module.exports = {
         background_color: `#5f4d93`,
         theme_color: `#5f4d93`,
         display: `minimal-ui`,
-        icon: `src/images/scavettapps-logo.svg`, // This path is relative to the root of the site.
+        icon: `src/images/scavettapps-logo-circle.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

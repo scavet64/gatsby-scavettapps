@@ -1,7 +1,7 @@
 import React from "react"
 import SkillsSection from "./skills/skills"
 
-import s from "./main.module.scss"
+import { mainContainer, contactMeText, contactMe, socialLinkList, socialContainer, socialLink} from "./main.module.scss"
 import EducationSection from "./education/education"
 import ProjectsSection from "./projects/projects"
 
@@ -12,7 +12,7 @@ import { FiMail } from "@react-icons/all-files/fi/FiMail"
 
 const MainContentComponent = () => {
   return (
-    <div id="main" className={s.mainContainer}>
+    <div id="main" className={mainContainer}>
       <section id="about">
         <h2>Who I am</h2>
         <p>
@@ -34,42 +34,42 @@ const MainContentComponent = () => {
 
       <section id="contact">
         <h2>Get in Touch</h2>
-        <div className={s.contactMeContainer}>
-          <div className={s.contactMeText}>
-            <p className={s.contactMe}>
+        <div>
+          <div className={contactMeText}>
+            <p className={contactMe}>
               Need a clean, fast, modern website to convert more visitors into
               customers? Contact me today and see what I can do!
             </p>
           </div>
-          <div className={s.socialLinkList}>
-            <div className={s.socialContainer}>
-              <a href="mailto:scavettapps@gmail.com" className={s.socialLink}>
+          <div className={socialLinkList}>
+            <div className={socialContainer}>
+              <a href="mailto:scavettapps@gmail.com" className={socialLink}>
                 <FiMail size="1.5em" />
               </a>
               contact@scavettapps.com
             </div>
 
-            <div className={s.socialContainer}>
-              <a href="https://github.com/scavet64/" className={s.socialLink}>
+            <div className={socialContainer}>
+              <a href="https://github.com/scavet64/" className={socialLink}>
                 <FaGithub size="1.5em" />
               </a>
               github.com/scavet64
             </div>
 
-            <div className={s.socialContainer}>
+            <div className={socialContainer}>
               <a
                 href="https://www.linkedin.com/in/vscavetta/"
-                className={s.socialLink}
+                className={socialLink}
               >
                 <FaLinkedinIn size="1.5em" />
               </a>
               linkedin.com/in/vscavetta
             </div>
 
-            <div className={s.socialContainer}>
+            <div className={socialContainer}>
               <a
                 href="https://twitter.com/scavettapps"
-                className={s.socialLink}
+                className={socialLink}
               >
                 <FaTwitter size="1.5em" />
               </a>

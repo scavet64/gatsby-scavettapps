@@ -1,6 +1,6 @@
 import React from "react"
 
-import s from "./skills.module.scss"
+import {skillsList, skillsListItem, skillsListItemTitle, skillsListItemBody, tagContainer, tag} from "./skills.module.scss"
 
 import svc1 from "../../../images/icons/webdesign.svg"
 import svc2 from "../../../images/icons/server.svg"
@@ -10,9 +10,9 @@ const SkillsSection = () => {
   return (
     <section id="skills">
       <h2>What I know</h2>
-      <div className={s.skillsList}>
-        <div className={s.skillsListItem}>
-          <div className={s.skillsListItemTitle}>
+      <div className={skillsList}>
+        <div className={skillsListItem}>
+          <div className={skillsListItemTitle}>
             <img
               src={svc1}
               height="125px"
@@ -21,7 +21,7 @@ const SkillsSection = () => {
             />
             <h4>Frontend Development</h4>
           </div>
-          <div className={s.skillsListItemBody}>
+          <div className={skillsListItemBody}>
             <p>
               Many users make their decision if they will continue using a
               website or application in the first few seconds of their visit.
@@ -30,18 +30,18 @@ const SkillsSection = () => {
               Taking the time to create a great user interface is something that
               I always like to spend time doing.
             </p>
-            <div className={s.tagContainer}>
-              <div className={s.tag}>Angular</div>
-              <div className={s.tag}>Material</div>
-              <div className={s.tag}>React</div>
-              <div className={s.tag}>GatsbyJS</div>
-              <div className={s.tag}>Adobe Suite</div>
+            <div className={tagContainer}>
+              <div className={tag}>Angular</div>
+              <div className={tag}>Material</div>
+              <div className={tag}>React</div>
+              <div className={tag}>GatsbyJS</div>
+              <div className={tag}>Adobe Suite</div>
             </div>
           </div>
         </div>
 
-        <div className={s.skillsListItem}>
-          <div className={s.skillsListItemTitle}>
+        <div className={skillsListItem}>
+          <div className={skillsListItemTitle}>
             <img
               src={svc2}
               height="125px"
@@ -50,7 +50,7 @@ const SkillsSection = () => {
             />
             <h4>Backend Development</h4>
           </div>
-          <div className={s.skillsListItemBody}>
+          <div className={skillsListItemBody}>
             <p>
               API Servers are the backbone of just about any application. It is
               critical to ensure high availability as well as modularity to keep
@@ -60,19 +60,19 @@ const SkillsSection = () => {
               experience working with technologies such as Spring, Docker, and
               Kubernetes to stand up microservices with ease
             </p>
-            <div className={s.tagContainer}>
-              <div className={s.tag}>Java</div>
-              <div className={s.tag}>Spring Boot</div>
-              <div className={s.tag}>ASP.NET</div>
-              <div className={s.tag}>MySQL</div>
-              <div className={s.tag}>Node.js</div>
-              <div className={s.tag}>Python</div>
+            <div className={tagContainer}>
+              <div className={tag}>Java</div>
+              <div className={tag}>Spring Boot</div>
+              <div className={tag}>ASP.NET</div>
+              <div className={tag}>MySQL</div>
+              <div className={tag}>Node.js</div>
+              <div className={tag}>Python</div>
             </div>
           </div>
         </div>
 
-        <div className={s.skillsListItem}>
-          <div className={s.skillsListItemTitle}>
+        <div className={skillsListItem}>
+          <div className={skillsListItemTitle}>
             <img
               src={svc3}
               height="125px"
@@ -81,7 +81,7 @@ const SkillsSection = () => {
             />
             <h4>DevOps Experience</h4>
           </div>
-          <div className={s.skillsListItemBody}>
+          <div className={skillsListItemBody}>
             <p>
               Development is only half the battle. Knowing how to deploy your
               code to a staging platform and push into production in a
@@ -91,13 +91,13 @@ const SkillsSection = () => {
               learning new methodologies and technologies to keep up with the
               ever growing space
             </p>
-            <div className={s.tagContainer}>
-              <div className={s.tag}>Docker</div>
-              <div className={s.tag}>AWS</div>
-              <div className={s.tag}>Heroku</div>
-              <div className={s.tag}>CI/CD</div>
-              <div className={s.tag}>Kubernetes</div>
-              <div className={s.tag}>Elastic Stack</div>
+            <div className={tagContainer}>
+              <div className={tag}>Docker</div>
+              <div className={tag}>AWS</div>
+              <div className={tag}>Heroku</div>
+              <div className={tag}>CI/CD</div>
+              <div className={tag}>Kubernetes</div>
+              <div className={tag}>Elastic Stack</div>
             </div>
           </div>
         </div>
