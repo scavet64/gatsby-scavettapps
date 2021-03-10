@@ -1,6 +1,13 @@
 import React from "react"
 
-import {skillsList, skillsListItem, skillsListItemTitle, skillsListItemBody, tagContainer, tag} from "./skills.module.scss"
+import {
+  skillsList,
+  skillsListItem,
+  skillsListItemTitle,
+  skillsListItemBody,
+  tagContainer,
+  tag,
+} from "./skills.module.scss"
 
 import svc1 from "../../../images/icons/webdesign.svg"
 import svc2 from "../../../images/icons/server.svg"

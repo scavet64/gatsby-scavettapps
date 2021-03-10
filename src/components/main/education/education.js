@@ -1,16 +1,21 @@
 import React from "react"
 
-import { educationContainer, educationDescription, degreeList, degreeListItem } from "./education.module.scss"
+import {
+  educationContainer,
+  educationDescription,
+  degreeList,
+  degreeListItem,
+} from "./education.module.scss"
 
 const EducationSection = () => {
   return (
     <section id="education">
-      <h2>My Education</h2>
+      <h2>Where I've Learned</h2>
 
       <div className={educationContainer}>
         <div className={educationDescription}>
           <p>
-            I attended Rowan University to first obtain my bachelors of science
+            I attended Rowan University to first obtain my bachelor of science
             in biology with a minor in computer science and chemistry. After
             falling in love with computer science, I continued my education in
             computer science by also completing my graduate degree at Rowan
