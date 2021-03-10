@@ -1,7 +1,14 @@
 import React from "react"
 import SkillsSection from "./skills/skills"
 
-import { mainContainer, contactMeText, contactMe, socialLinkList, socialContainer, socialLink} from "./main.module.scss"
+import {
+  mainContainer,
+  contactMeText,
+  contactMe,
+  socialLinkList,
+  socialContainer,
+  socialLink,
+} from "./main.module.scss"
 import EducationSection from "./education/education"
 import ProjectsSection from "./projects/projects"
 
@@ -16,13 +23,13 @@ const MainContentComponent = () => {
       <section id="about">
         <h2>Who I am</h2>
         <p>
-          My name is Vincent Scavetta and I am a professional Full Stack
+          My name is Vincent Scavetta and I am a professional Full-Stack
           Software Engineer specializing in developing secure software for the
           Department of Defense. On any given day you can usually find me
-          programming away on all sorts of different projects, some small and
+          programming away on all sorts of different projects. Some small and
           some complex, whatever fits the mood. I love to spend time learning
           about new programming languages and technologies so I can take my
-          projects and dream ideas to the next level. While im not programming,
+          projects and dream ideas to the next level. While I'm not programming,
           I like to spend time playing new and old video games or watching my
           favorite content creators on Twitch and YouTube.
         </p>
@@ -67,10 +74,7 @@ const MainContentComponent = () => {
             </div>
 
             <div className={socialContainer}>
-              <a
-                href="https://twitter.com/scavettapps"
-                className={socialLink}
-              >
+              <a href="https://twitter.com/scavettapps" className={socialLink}>
                 <FaTwitter size="1.5em" />
               </a>
               twitter.com/scavettapps
