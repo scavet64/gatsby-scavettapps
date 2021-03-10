@@ -12,17 +12,14 @@ import "./layout.scss"
 import "./styles.scss"
 
 const Layout = ({ children }) => {
-
   return (
     <>
-      <div style={{
-        minHeight: `100vh`
-      }}>
-        <main
-          id="mainpage"
-        >
-          {children}
-        </main>
+      <div
+        style={{
+          minHeight: `100vh`,
+        }}
+      >
+        <main id="mainpage">{children}</main>
         <footer>
           <div className="footer-note">
             Copyright © {new Date().getFullYear()} | Scavettapps | All Rights

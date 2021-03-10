@@ -20,7 +20,8 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
   background-color: white;
-  background-image: url('../images/overlay.png'),linear-gradient(45deg,#e37682 15%,#5f4d93 85%);
+  background-image: url("../images/overlay.png"),
+    linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 }
 article,
 aside,
@@ -610,7 +611,7 @@ footer {
   text-align: center;
 }
 
-.footer-note{
+.footer-note {
   margin: 5px;
 }
 

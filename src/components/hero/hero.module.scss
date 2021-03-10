@@ -1,72 +1,72 @@
-@import '../styles.scss';
+@import "../styles.scss";
 
 @mixin fade-in-animation($speed) {
-    animation-name: heroFade;
-    animation-duration: $speed;
-    animation-timing-function: cubic-bezier(0.88, -0.23, 0.29, 1);
-    animation-delay: 0s;
-    animation-fill-mode: both;
-    transform-origin: center;
+  animation-name: heroFade;
+  animation-duration: $speed;
+  animation-timing-function: cubic-bezier(0.88, -0.23, 0.29, 1);
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  transform-origin: center;
 }
 
 @keyframes heroFade {
-    0% {
-      opacity: 0;
-      transform: scale(1.1);
-    }
-    100% {
-      opacity: 1;
-      transform: none;
-    }
+  0% {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .hero-title {
-    color: white;
-    margin-bottom: 0px;
-    text-align: center;
-    font-size: 3rem;
+  color: white;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 3rem;
 
-    @include breakpoint(xsmall) {
-        font-size: 1.75rem;
-    }
+  @include breakpoint(xsmall) {
+    font-size: 1.75rem;
+  }
 
-    @include fade-in-animation(0.5s);
+  @include fade-in-animation(0.5s);
 }
 
 .subtitle-style {
-    font-size: 2rem;
-    line-height: 60px;
-    letter-spacing: 0.05em;
-    color: white;
-    font-family: Montserrat;
-    font-weight: 100;
-    text-align: center;
+  font-size: 2rem;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  color: white;
+  font-family: Montserrat;
+  font-weight: 100;
+  text-align: center;
 
-    @include breakpoint(xsmall) {
-        font-size: 1.5rem;
-        line-height: 2rem;
-        margin-top: 1rem;
-    }
+  @include breakpoint(xsmall) {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+  }
 
-    @include fade-in-animation(1.0s);
+  @include fade-in-animation(1s);
 }
 
 .heroHolder {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .logo {
-    @include fade-in-animation(1.5s);
-    margin-bottom: 1rem;
-    height: 100px;
-    width: 100px;
+  @include fade-in-animation(1.5s);
+  margin-bottom: 1rem;
+  height: 100px;
+  width: 100px;
 
-    @include breakpoint(xsmall) {
-        height: 50px;
-        width: 50px;
-    }
+  @include breakpoint(xsmall) {
+    height: 50px;
+    width: 50px;
+  }
 }

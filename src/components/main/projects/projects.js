@@ -3,7 +3,14 @@ import React from "react"
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
 import { FaExternalLinkAlt } from "@react-icons/all-files/fa/FaExternalLinkAlt"
 
-import { projectContainer, projectDescription, projectList, projectListItem, buttonContainer, buttonAnchor } from "./projects.module.scss"
+import {
+  projectContainer,
+  projectDescription,
+  projectList,
+  projectListItem,
+  buttonContainer,
+  buttonAnchor,
+} from "./projects.module.scss"
 
 import supernova from "../../../images/icons/supernovaMaybe.svg"
 import animalCrossing from "../../../images/icons/animal-crossing.svg"
@@ -26,7 +33,12 @@ const ProjectsSection = () => {
 
         <div className={projectList}>
           <div className={projectListItem}>
-            <img src={animalCrossing} height="150px" width="150px" alt="Animal Crossing Critters Logo"/>
+            <img
+              src={animalCrossing}
+              height="150px"
+              width="150px"
+              alt="Animal Crossing Critters Logo"
+            />
             <h4>Animal Crossing Critters</h4>
             <p>
               Help keep track and fill out your Animal Crossing New Horizons
@@ -51,7 +63,12 @@ const ProjectsSection = () => {
             </div>
           </div>
           <div className={projectListItem}>
-            <img src={supernova} height="150px" width="150px" alt="Super Nova Escape Logo"/>
+            <img
+              src={supernova}
+              height="150px"
+              width="150px"
+              alt="Super Nova Escape Logo"
+            />
             <h4>SuperNova: Escape!</h4>
             <p>
               Tap to escape the trailing super nova in this endless arcade
@@ -78,7 +95,12 @@ const ProjectsSection = () => {
             </div>
           </div>
           <div className={projectListItem}>
-            <img src={incrediball} height="150px" width="150px" alt="Incrediball Logo"/>
+            <img
+              src={incrediball}
+              height="150px"
+              width="150px"
+              alt="Incrediball Logo"
+            />
             <h4>Incrediball</h4>
             <p>
               Incrediball is the most incredible endless rolling ball

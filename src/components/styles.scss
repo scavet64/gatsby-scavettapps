@@ -51,14 +51,16 @@
 @import "../scss/util/mixins";
 @import "../scss/util/skel";
 
-@include skel-breakpoints((
-  xlarge: '(max-width: 1680px)',
-  large: '(max-width: 1280px)',
-  medium: '(max-width: 980px)',
-  small: '(max-width: 768px)',
-  xsmall: '(max-width: 480px)',
-  xxsmall: '(max-width: 360px)'
-));
+@include skel-breakpoints(
+  (
+    xlarge: "(max-width: 1680px)",
+    large: "(max-width: 1280px)",
+    medium: "(max-width: 980px)",
+    small: "(max-width: 768px)",
+    xsmall: "(max-width: 480px)",
+    xxsmall: "(max-width: 360px)",
+  )
+);
 
 @mixin color($p) {
   @include color-typography($p);
@@ -79,7 +81,7 @@
   max-width: calc(100% - 4em);
   margin: 0 auto;
 
-  @include breakpoint('small') {
+  @include breakpoint("small") {
     max-width: 95%;
   }
 }
@@ -87,11 +89,11 @@
 html {
   font: 112.5%/1.45em georgia, serif, sans-serif;
 
-  @include breakpoint('xlarge') {
+  @include breakpoint("xlarge") {
     font: 107%/1.25em georgia, serif, sans-serif;
   }
 
-  @include breakpoint('large') {
+  @include breakpoint("large") {
     font: 100%/1.45em georgia, serif, sans-serif;
   }
 }
