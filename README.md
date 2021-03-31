@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c9dc4ea2-63f2-4f8d-90b7-aae968eb24c7/deploy-status)](https://app.netlify.com/sites/scavettappsv2/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c9dc4ea2-63f2-4f8d-90b7-aae968eb24c7/deploy-status)](https://app.netlify.com/sites/gatsby-scavettapps/deploys)
 
 # Scavettapps Homepage / Personal Portfolio
 

@@ -77,7 +77,7 @@ h2::after {
 }
 
 .social-link {
-  background: linear-gradient(45deg, #8d4d93cb, #5e4d93cb);
+  background: linear-gradient(45deg, $accent-gradient1, $accent-gradient2);
   border-bottom: none;
   position: relative;
   display: inline-block;

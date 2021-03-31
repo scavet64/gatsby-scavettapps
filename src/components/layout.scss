@@ -1,4 +1,5 @@
 @import "../css/montserrat/typography.css";
+@import "../scss/util/vars";
 
 html {
   -ms-text-size-adjust: 100%;
@@ -21,7 +22,7 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
   background-color: white;
   background-image: url("../images/overlay.png"),
-    linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    linear-gradient(45deg, $background-gradient1 15%, $background-gradient2 85%);
 }
 article,
 aside,
