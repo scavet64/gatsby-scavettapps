@@ -15,10 +15,13 @@ const EducationSection = () => {
       <div className={educationContainer}>
         <div className={educationDescription}>
           <p>
-            I attended Rowan University to first obtain my bachelor of science
-            in biology with a minor in computer science and chemistry. After
-            falling in love with computer science, I continued my education in
-            computer science by also completing my graduate degree at Rowan
+            I attended Rowan University and earned my Bachelor of Science in
+            Biology with a minor in Computer Science and Chemistry. As my love
+            for computer science grew, and I decided to pursue it further by
+            obtaining my graduate degree. By combining my knowledge of biology
+            and chemistry with my expertise in computer science, I have been
+            able to approach problem-solving in a unique way, applying
+            interdisciplinary thinking to develop innovative solutions.
           </p>
         </div>
 

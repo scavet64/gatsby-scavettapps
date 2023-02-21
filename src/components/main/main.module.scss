@@ -106,8 +106,8 @@ h2::after {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: auto 215px;
-  place-content: center;
-  place-items: center;
+  align-items: center;
+  justify-items: left;
   margin: 0.75rem;
   font-weight: 300;
 }
