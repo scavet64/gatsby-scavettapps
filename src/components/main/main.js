@@ -23,15 +23,17 @@ const MainContentComponent = () => {
       <section id="about">
         <h2>Who I am</h2>
         <p>
-          My name is Vincent Scavetta and I am a professional Full-Stack
-          Software Engineer specializing in developing secure software for the
-          Department of Defense. On any given day you can usually find me
-          programming away on all sorts of different projects. Some small and
-          some complex, whatever fits the mood. I love to spend time learning
-          about new programming languages and technologies so I can take my
-          projects and dream ideas to the next level. While I'm not programming,
-          I like to spend time playing new and old video games or watching my
-          favorite content creators on Twitch and YouTube.
+          As a seasoned Full-Stack Software Engineer with expertise in
+          developing secure cloud and client based applications, I have honed my
+          skills on a variety of projects, both small and complex. Driven by a
+          passion for innovation, I continually strive to stay ahead of the
+          curve by keeping up with the latest programming languages and
+          technologies. Whether it's discovering new techniques to improve code
+          efficiency or implementing cutting-edge features, I am dedicated to
+          taking my projects and dream ideas to the next level. When not
+          immersed in programming, I enjoy playing video games and following my
+          favorite content creators on Twitch and YouTube, keeping up with the
+          latest trends and developments in the industry.
         </p>
       </section>
 
@@ -44,8 +46,12 @@ const MainContentComponent = () => {
         <div>
           <div className={contactMeText}>
             <p className={contactMe}>
-              Need a clean, fast, modern website to convert more visitors into
-              customers? Contact me today and see what I can do!
+              Want to improve your online presence and drive more sales? I can
+              help! I create fast, modern, and visually appealing websites that
+              convert visitors into customers. Whether you're starting a new
+              business or refreshing your existing one, I have the skills and
+              creativity to take your website to the next level. Contact me
+              today to discuss your digital goals!
             </p>
           </div>
           <div className={socialLinkList}>
