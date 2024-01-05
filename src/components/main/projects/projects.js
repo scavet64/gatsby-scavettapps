@@ -16,6 +16,10 @@ import supernova from "../../../images/icons/supernovaMaybe.svg"
 import animalCrossing from "../../../images/icons/animal-crossing.svg"
 import incrediball from "../../../images/icons/beach-ball.svg"
 
+import noisebean from "../../../images/icons/noisebean.png"
+import checkers from "../../../images/icons/checkers.png"
+import win32Helper from "../../../images/icons/win32-library.png"
+
 const ProjectsSection = () => {
   return (
     <section id="projects">
@@ -62,6 +66,7 @@ const ProjectsSection = () => {
               </a>
             </div>
           </div>
+
           <div className={projectListItem}>
             <img
               src={supernova}
@@ -94,6 +99,7 @@ const ProjectsSection = () => {
               </a>
             </div>
           </div>
+
           <div className={projectListItem}>
             <img
               src={incrediball}
@@ -118,6 +124,82 @@ const ProjectsSection = () => {
               <a
                 className={buttonAnchor}
                 href="https://github.com/scavet64/Incrediball"
+              >
+                <FaGithub />
+                &nbsp;Source
+              </a>
+            </div>
+          </div>
+
+          <div className={projectListItem}>
+            <img
+              src={noisebean}
+              height="150px"
+              width="150px"
+              alt="Noisebean Logo"
+            />
+            <h4>NoiseBean</h4>
+            <p>
+              Personal Discord bot powered by JDA, Spring Boot, and Spring Data
+              JPA. Its can play music from YouTube or act as a soundboard with
+              uploaded files. It also can run private polls, and keep track game
+              play times to collect statistics that players can later view.
+            </p>
+            <div className={buttonContainer}>
+              <a
+                className={buttonAnchor}
+                href="https://github.com/scavet64/NoiseBean"
+              >
+                <FaGithub />
+                &nbsp;Source
+              </a>
+            </div>
+          </div>
+
+          <div className={projectListItem}>
+            <img
+              src={checkers}
+              height="150px"
+              width="150px"
+              alt="Checkers Minimax Logo"
+            />
+            <h4>Checkers Minimax</h4>
+            <p>
+              A full implementation in the Dotnet framework of a playable
+              checkers game against a computer opponent. The artificial
+              intelligence uses the Minimax algorithm to strategize and
+              determine optimal moves based on genetically determined heuristics
+            </p>
+            <div className={buttonContainer}>
+              <a
+                className={buttonAnchor}
+                href="https://github.com/scavet64/CheckersMinimax"
+              >
+                <FaGithub />
+                &nbsp;Source
+              </a>
+            </div>
+          </div>
+
+          <div className={projectListItem}>
+            <img
+              src={win32Helper}
+              height="150px"
+              width="150px"
+              alt="Win32ApiHelper icon"
+            />
+
+            <h4>Win32ApiHelper</h4>
+            <p>
+              This library was created to assist me in some of my other projects
+              where I required the use of windows specific API functions. The
+              main function of this library is the concept of impersonation and
+              launching processes from a windows service.
+            </p>
+            <div className={buttonContainer}>
+              <a
+                className={buttonAnchor}
+                href="https://github.com/scavet64/Win32ApiHelper"
               >
                 <FaGithub />
                 &nbsp;Source
