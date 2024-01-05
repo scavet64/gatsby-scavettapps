@@ -42,28 +42,39 @@ const MainContentComponent = () => {
       <ProjectsSection />
 
       <section id="contact">
-        <h2>Get in Touch</h2>
+        <h2>Where I Am</h2>
         <div>
           <div className={contactMeText}>
             <p className={contactMe}>
-              Want to improve your online presence and drive more sales? I can
-              help! I create fast, modern, and visually appealing websites that
-              convert visitors into customers. Whether you're starting a new
-              business or refreshing your existing one, I have the skills and
-              creativity to take your website to the next level. Contact me
-              today to discuss your digital goals!
+              Feel free to connect with me! I'm always eager to engage in
+              discussions or collaborations. If you're looking to enhance your
+              online presence and boost sales, I've got you covered! I
+              specialize in crafting fast, modern, and visually appealing
+              websites that effectively convert visitors into customers. Whether
+              you're launching a new business or revitalizing your current one,
+              I possess the skills and creativity to elevate your website.
+              Contact me today to discuss your digital goals and let's create
+              something remarkable together!
             </p>
           </div>
           <div className={socialLinkList}>
             <div className={socialContainer}>
-              <a href="mailto:scavettapps@gmail.com" className={socialLink}>
+              <a
+                aria-label="email"
+                href="mailto:scavettapps@gmail.com"
+                className={socialLink}
+              >
                 <FiMail size="1.5em" />
               </a>
               contact@scavettapps.com
             </div>
 
             <div className={socialContainer}>
-              <a href="https://github.com/scavet64/" className={socialLink}>
+              <a
+                aria-label="github"
+                href="https://github.com/scavet64/"
+                className={socialLink}
+              >
                 <FaGithub size="1.5em" />
               </a>
               github.com/scavet64
@@ -71,6 +82,7 @@ const MainContentComponent = () => {
 
             <div className={socialContainer}>
               <a
+                aria-label="linkedIn"
                 href="https://www.linkedin.com/in/vscavetta/"
                 className={socialLink}
               >
@@ -80,7 +92,11 @@ const MainContentComponent = () => {
             </div>
 
             <div className={socialContainer}>
-              <a href="https://twitter.com/scavettapps" className={socialLink}>
+              <a
+                aria-label="twitter"
+                href="https://twitter.com/scavettapps"
+                className={socialLink}
+              >
                 <FaTwitter size="1.5em" />
               </a>
               twitter.com/scavettapps

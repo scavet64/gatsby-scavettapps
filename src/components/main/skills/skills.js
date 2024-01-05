@@ -30,17 +30,12 @@ const SkillsSection = () => {
           </div>
           <div className={skillsListItemBody}>
             <p>
-              First impressions are crucial for users when visiting a website or
-              application, as they often determine whether they will continue to
-              use it or not. Within mere seconds of their visit, users decide
-              whether they are comfortable with the site or feel overwhelmed and
-              confused. Hence, it is imperative that websites and applications
-              are fast, clean, and easy to navigate, creating a welcoming and
-              hassle-free experience for new users. Crafting an exceptional user
-              interface is a crucial task that should never be overlooked. As a
-              developer, investing time and effort into creating a smooth and
-              intuitive user interface can go a long way in enhancing user
-              experience, improving customer satisfaction, and even boosting
+              In those critical first moments on a website or app, users decide
+              its friendliness. Prioritizing speed, cleanliness, and easy
+              navigation is key. As a developer with expertise in frontend
+              frameworks and best practices, I invest in creating a smooth and
+              intuitive user interface, leveraging tools such as React, Gatsby,
+              and Figma, to enhance overall user experience, satisfaction, and
               conversions.
             </p>
             <div className={tagContainer}>
@@ -73,7 +68,7 @@ const SkillsSection = () => {
               and enable fast updates. The industry trend toward
               microservice-based architecture demands agility and scalability.
               My experience with cutting-edge technologies such as Spring,
-              ASP.Net 6, Docker, and Kubernetes has enabled me to deploy and
+              ASP.Net 8, Docker, and Kubernetes has enabled me to deploy and
               manage microservices to AWS ease, creating a flexible
               infrastructure that integrates new features and enhances fault
               tolerance and performance. Adopting a microservice-based approach
@@ -82,14 +77,13 @@ const SkillsSection = () => {
             </p>
             <div className={tagContainer}>
               <div className={tag}>C#</div>
-              <div className={tag}>Dotnet 6</div>
-              <div className={tag}>Entity Framework 6</div>
-              <div className={tag}>Java</div>
+              <div className={tag}>Dotnet 8</div>
+              <div className={tag}>Entity Framework 8</div>
+              <div className={tag}>Java 21</div>
               <div className={tag}>Spring Boot</div>
               <div className={tag}>ASP.NET</div>
-              <div className={tag}>MySQL</div>
+              <div className={tag}>MSSQL</div>
               <div className={tag}>Node.js</div>
-              <div className={tag}>Python</div>
             </div>
           </div>
         </div>
@@ -124,7 +118,7 @@ const SkillsSection = () => {
               <div className={tag}>AWS</div>
               <div className={tag}>CloudFormation</div>
               <div className={tag}>ECS</div>
-              <div className={tag}>AWS Copilot</div>
+              <div className={tag}>Serverless</div>
               <div className={tag}>CI/CD</div>
               <div className={tag}>Kubernetes</div>
               <div className={tag}>Elastic Stack</div>
